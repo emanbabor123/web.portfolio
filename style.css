@@ -1,21 +1,18 @@
-
-/* General Reset */
-
-
 html{
     scroll-behavior: smooth;
 }
 
 body {
-    color: white;
+    
     background-color: #4a0404;
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-/* Navigation */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -25,8 +22,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    position: relative;
-     transition: 0.3s;
+    transition: 0.3s;
 }
 .navbar a:hover {
   background: rgb(247, 2, 2);
@@ -62,7 +58,7 @@ body {
     color: white;
 }
 
-/* Sections */
+
 section {
     padding: 80px 10%;
     min-height: 100vh;
@@ -87,7 +83,7 @@ section {
     color: #ff0000;
 }
 
-/* Hero Section */
+
 .hero {
     flex-direction: row;
     justify-content: space-between;
@@ -143,7 +139,7 @@ section {
     color: white;
 }
 
-/* Profile Image with Capsule Border */
+
 .image-border {
     float: left;
     border: 3px solid #ff0000;
@@ -163,7 +159,7 @@ section {
     border-radius: 140px;
 }
 
-/* About Section */
+/*About*/
 .image-borders {
     float: left;
     border: 3px solid #ff0000;
@@ -207,7 +203,7 @@ section {
     padding: 8px;
 }
 
-/* Education Cards */
+/* Education*/
 .card-container {
     display: flex;
     gap: 20px;
@@ -234,7 +230,7 @@ section {
     transform: scale(1.12);
 }
 
-/* Project List */
+/* Project */
 .project-list {
     width: 100%;
 }
@@ -260,17 +256,11 @@ section {
     transform: scale(1.12);
 }
 
-.main {
-    background-color: #4a0404;
-    width: 1495px;
-    height: 720px;
-}
+
 
 .project-info h4 { margin-bottom: 15px; }
 
-/* Contact Form */
-
-/* Contact Section */
+/* Contact */
 .contact {
     display: flex;
     flex-direction: column;
@@ -329,8 +319,7 @@ section {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-.contact-box input::placeholder,
-.contact-box textarea::placeholder {
+.contact-box input::placeholder.contact-box textarea::placeholder {
     color: #aaaaaa;
 }
 
@@ -350,4 +339,9 @@ section {
 .btn-submit:hover {
     background-color: #ff0000;
     color: white;
+}
+.main {
+    background-color: #4a0404;
+    width: 1495px;
+    height: 720px;
 }
